@@ -1,0 +1,50 @@
+{
+  "version": "0.1.0",
+  "name": "swap_sol_for_move",
+  "instructions": [
+    {
+      "name": "swapSolForMove",
+      "accounts": [
+        {
+          "name": "userSolAccount",
+          "isMut": true,
+          "isSigner": true
+        },
+        {
+          "name": "userMoveAccount",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "moveMint",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "tokenProgram",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "contractSolAccount",
+          "isMut": true,
+          "isSigner": true
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "amount",
+          "type": "u64"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "address": "GP5NgbhRYiPWDWm3AhUFwym3rYCuUjHWPkHyrmeotZ19"
+  }
+}

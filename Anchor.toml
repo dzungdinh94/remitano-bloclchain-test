@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.testnet]
+swap_sol_for_move = "GP5NgbhRYiPWDWm3AhUFwym3rYCuUjHWPkHyrmeotZ19"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "testnet"
+wallet = "/Users/dmr/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
